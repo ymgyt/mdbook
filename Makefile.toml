@@ -1,0 +1,15 @@
+[tasks.build]
+command = "mdbook"
+args = ["build"]
+
+[tasks.watch]
+command = "mdbook"
+args = ["watch"]
+
+[tasks.serve]
+command = "mdbook"
+args = ["serve", "--open", "--port=9000"]
+
+[tasks.clean]
+command = "mdbook"
+args = ["clean"]
